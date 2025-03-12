@@ -128,11 +128,6 @@ function showFinalMessage() {
       _0x1b1f96[_0x46f095(0x84)]["display"] = _0x46f095(0x9c);
     }, 0x7d0);
 }
-
-function redirectToNewPage() {
-  window.location.href = "https://panbap.github.io/heart02/";
-}
-
 const elts = {
   text1: document.getElementById("text1"),
   text2: document.getElementById("text2"),
@@ -399,12 +394,6 @@ function _0x501d() {
   return _0x501d();
 }
 
-/*
-        
-         * Particle class
-        
-         */
-
 (function (_0x28c3ac, _0x32cb07) {
   var _0x403e3e = _0x1c63,
     _0x198595 = _0x28c3ac();
@@ -529,12 +518,6 @@ var Particle = (function () {
     _0x31a4ef
   );
 })();
-
-/*
-        
-         * ParticlePool class
-        
-         */
 
 var ParticlePool = (function () {
   var particles,

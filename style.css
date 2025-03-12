@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css?family=Raleway:900&display=swap");
-html, body {
+html,
+body {
   margin: 0;
   padding: 0;
   display: flex;
@@ -19,18 +20,26 @@ h1 {
   transform: translateX(-50%);
 }
 a {
+  display: block;
+  text-indent: -9999px; /* Ẩn chữ gốc */
+  position: relative;
+}
+
+a::after {
+  content: "Design by Duy Tân ";
   position: fixed;
   bottom: 0;
   text-align: center;
   font-size: 14px;
   color: #333;
 }
+
 button {
   position: absolute;
   z-index: 1;
   padding: 15px 30px;
   font-size: 18px;
-  font-family: 'Arial', 'Helvetica', sans-serif;
+  font-family: "Arial", "Helvetica", sans-serif;
   background-color: #0a2b57;
   color: white;
   border: none;
@@ -46,7 +55,7 @@ button:hover {
   position: absolute;
   width: 240px;
   height: 160px;
-  background-color: #FFB6C1;
+  background-color: #ffb6c1;
   color: rgb(0, 0, 0);
   font-size: 16px;
   border-radius: 10px;
@@ -72,7 +81,7 @@ button:hover {
 
 .notification-header span {
   color: rgb(0, 0, 0);
-  font-family: 'Arial', 'Helvetica', sans-serif;
+  font-family: "Arial", "Helvetica", sans-serif;
   text-align: center;
   flex-grow: 1;
 }
@@ -83,7 +92,7 @@ button:hover {
   padding: 10px;
   flex-grow: 1;
   display: flex;
-  font-family: 'Arial', 'Helvetica', sans-serif;
+  font-family: "Arial", "Helvetica", sans-serif;
   font-style: normal;
   justify-content: center;
   align-items: center;
@@ -118,7 +127,7 @@ button:hover {
 
 .final-message {
   position: fixed;
-  transform: translate(-50%, -50%); 
+  transform: translate(-50%, -50%);
   z-index: 999;
   font-size: 30px;
   font-weight: bold;
@@ -139,11 +148,11 @@ button:hover {
 
 #text1,
 #text2 {
-	position: absolute;
-	top: 45%;
-	left: 50%;
-	transform: translate(-50%, -50%);
-	color: rgb(247, 75, 104);
-	font-family: "Raleway", sans-serif;
-	font-size: 35pt;
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: rgb(247, 75, 104);
+  font-family: "Raleway", sans-serif;
+  font-size: 35pt;
 }
